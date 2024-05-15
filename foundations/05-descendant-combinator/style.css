@@ -1,0 +1,36 @@
+/* Descendant Selectors
+
+/* p is a descendant selector of div */
+
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*.text is a descendant selector of div*/
+/*
+div .text {
+    background-color: aliceblue;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/* .text is a descendant of .container */
+/*
+.container .text {
+    background-color:burlywood;
+    color:crimson;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/* Below are some other possible descendant combinators:
+   div > p
+   .container p
+
+*/
+
+
