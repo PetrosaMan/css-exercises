@@ -18,7 +18,7 @@ body {
   font-weight:900;
   display: flex;
   align-items: center;
-  padding-left: 16px;  /* padding: 0 16px;*/
+  padding-left: 0 16px;  /* padding: 16px;*/
 }
 
 .footer {
@@ -28,11 +28,7 @@ body {
   /* new code added:*/
   display:flex;
   align-items: center;  
-  justify-content: center;
-  position: fixed; /* Position footer at the bottom*/
-  left: 0; /* code */
-  right: 0; /* not in */
-  bottom: 0; /* solution*/
+  justify-content: center; 
 }
 
 .sidebar {
